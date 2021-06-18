@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url(reset.css);
+
+#wrap {border: 1px solid #000;}
+/*#leftMenu {border: 1px solid #000;}*/
+/* wrap */
+#wrap {
+    width: 1000px;
+    margin: 10px;
+
+}
+/**/
+
+/* leftMenu */
+#leftMenu {
+    margin: 10px 19px;
+}
+#mainMenu {
+    text-align: center;
+    margin-top: 10px;
+}
+#mainMenu>li {
+    padding: 20px;
+    border: 1px solid #aaa;
+}
+/**/
+
+/* main>slide */
+#slide {
+    position: relative;
+    margin-bottom: 10px;
+}
+#slideTxt {
+    padding: 20px 90px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+/**/
+
+/* contents */
+#contents {
+    margin-bottom: 30px;
+}
+#contents>div {
+    padding: 5px;
+}
+.btn {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-bottom: none;
+    position: relative;
+    left: 20px;
+    top: 1px;
+
+}
+#notice-tbl {
+    height: 150px;
+    border: 1px solid #aaa;
+}
+#notice-tbl>tbody>tr>td {
+    font-size:17px;
+    line-height: 40px;
+    padding: 3px;
+}
+#gallery-tbl {
+    height: 150px;
+    border: 1px solid #aaa;
+}
+#gallery-tbl>tbody>tr>td {
+    font-size:17px;
+    padding: 3px;
+}
+#shortcut {
+    line-height: 190px;
+}
+#shortcut img {
+    vertical-align: middle;
+}
+/**/
